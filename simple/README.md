@@ -7,6 +7,6 @@
 4. Copy the glad.c to this repo.
 
 ## How to build the project
-Create a build directory and use CMake
-$ mkdir build && cd build
-$ cmake .. && make && ./simple
+Create a build directory and use CMake  
+$ mkdir build && cd build  
+$ cmake .. && make && ./simple  
