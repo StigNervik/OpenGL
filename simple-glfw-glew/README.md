@@ -1,12 +1,12 @@
 # Simple OpenGl program
 
-## Setup GLFW and GLAD
-1. Clone the project.
-2. Install the GLEW. Clone the GLFW repo (https://github.com/glfw/glfw) and make install.
-3. Download the GLAD (https://glad.dav1d.de/), copy the directory and file glad/glad.h and KHR/khrplatform.h to /usr/local/include.
-4. Copy the glad.c to this repo.
+## Setup GLFW and GLEW
+1. Install GLEW.Download GLEW source from here http://glew.sourceforge.net/
+3. Type: $sudo make install.
+2. Clone the GLFW repo (https://github.com/glfw/glfw) and type $sudo make install.
 
 ## How to build the project
+Clone this project.
 Create a build directory and use CMake  
 $ mkdir build && cd build  
 $ cmake .. && make && ./simple  
